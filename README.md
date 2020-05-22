@@ -31,7 +31,7 @@ mvn -Dtest=DressesWebTest test
 ## Design
 Tests use Carina Framework: https://www.carina-core.io/ that has built-in Selenium in it.
 
-Each page component has been separated to its own `Page` class under `main.java.pages`.
+Each page component has been separated to its own `Page` class under `src.main.java.pages`.
 
 Current pages are the following ones:
 - `APAbstractPage`: an abstract page extended from the Carina framework that each page uses. Handles urls and opening of a page.
@@ -39,6 +39,6 @@ Current pages are the following ones:
 - `DressesPage`: a page for listing all dresses.
 - `HomePage`: the home page where the comes the first time.
 
-Tests are run directly from `DressesWebTest` class under `test.java.com.accenture.demo`.
+Tests are run directly from `DressesWebTest` class under `src.test.java.com.accenture.demo`.
 
 Authors: Kristina Kostova
